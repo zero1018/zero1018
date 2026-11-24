@@ -1,16 +1,19 @@
-<h1 align="center">零一 · Zero Voyage</h1>
+<p align="center">
+  <img src="./assets/pick-and-place.gif" alt="Zero Voyage — Embodied AI. An illustrated robot arm approaches, grasps, and transfers a cube." width="960">
+</p>
 
-<p align="center"><strong>具身智能 · Embodied AI</strong></p>
+I work on **embodied AI for robot manipulation**. My current focus is how fingertip touch can complement vision and language in robot policies, and how to train and evaluate those policies in simulation.
 
-<p align="center">视觉–语言–动作模型 · 触觉感知与灵巧操作 · 仿真训练与评测</p>
+## Featured projects
 
-## 项目 / Projects
+### [SmolVLA for Tactile Dexterous Manipulation](https://github.com/zero1018/smolvla-tactile-dexterous-mujoco)
 
-| 项目 | 简介 |
-| --- | --- |
-| [SmolVLA · 触觉灵巧操作](https://github.com/zero1018/smolvla-tactile-dexterous-mujoco) | 在 MuJoCo 中用 RM65 机械臂和 Gaia Hand 20 采集多指抓取数据，探索如何把指尖触觉融入 SmolVLA 策略。包含 LeRobot 数据导出、微调和闭环评测流程。 |
-| [NewVLARLDemo · VLA 强化学习](https://github.com/zero1018/NewVLARLDemo) | 基于 StarVLA 的 Spectral-RLOO 实验快照，包含 VLA 后训练代码、动作头改动和 LIBERO 评测记录。 |
+A MuJoCo pipeline for multi-finger grasping with an RM65 arm and a Gaia Hand 20. It combines overhead and wrist cameras with fingertip force sensing, and covers episode collection, LeRobot export, SmolVLA fine-tuning, and closed-loop evaluation.
 
-## 联系 / Contact
+### [NewVLARLDemo](https://github.com/zero1018/NewVLARLDemo)
 
-[voygaed.zero@gmail.com](mailto:voygaed.zero@gmail.com)
+A StarVLA-based research snapshot for reinforcement learning post-training. It includes the Spectral-RLOO training code, QwenAdapter action-head changes, and LIBERO evaluation records.
+
+---
+
+[Email me](mailto:voygaed.zero@gmail.com)
